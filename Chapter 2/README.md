@@ -226,6 +226,7 @@ hogImage = hogImage.astype("uint8")
 cv2.imshow('features',hogImage)
 ```
 <div style="text-align:center"><img src="Resources/hog_f.jpg" width = 50% /></div>
+
 ```python
 cv2.waitKey(0)
 cv2.destroyAllWindows()
